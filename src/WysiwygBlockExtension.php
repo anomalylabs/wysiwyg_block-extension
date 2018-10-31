@@ -14,6 +14,13 @@ class WysiwygBlockExtension extends BlockExtension
 {
 
     /**
+     * The extension category.
+     *
+     * @var string
+     */
+    protected $category = 'content';
+
+    /**
      * This extension provides a wysiwyg
      * block for the blocks module.
      *
